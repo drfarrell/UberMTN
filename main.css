@@ -262,38 +262,34 @@ footer {
   float: right;
 }
 
-
-@media(max-width: 412px){
+@media(max-width: 991px){
+ 
+  .navbar .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  
+  .decor {
+    position: relative;
+    top: 120px !important;
+  }
   
   .decor p {
-    font-size: 8em !important;
-    top: -280px !important;
-  }
-   
-  #quote h2 {
-    font-size: 2.0em;
-  }
-  
-  #quote {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  
-  img {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 190px;
+    line-height: 20px;
+    position: relative;
+    top: -260px;
   }
   
 }
 
-@media(max-width: 662px){
-  
-  .decor p {
-    top: -200px !important;
-    font-size: 10em !important;
+@media(max-width: 767px){
+ 
+  .navbar .container {
+    padding-right: 15px !important;
+    padding-left: 35px !important;
   }
-   
+  
 }
 
 @media(max-width: 720px){
@@ -344,17 +340,38 @@ footer {
     padding-bottom: 10%;
   }
 
-  #social {
-    float: left;
-  }
 }
 
-@media(max-width: 767px){
- 
-  .navbar .container {
-    padding-right: 15px;
-    padding-left: 33px;
+@media(max-width: 662px){
+  
+  .decor p {
+    top: -200px !important;
+    font-size: 10em !important;
+  }
+   
+}
+
+
+@media(max-width: 412px){
+  
+  .decor p {
+    font-size: 8em !important;
+    top: -280px !important;
+  }
+   
+  #quote h2 {
+    font-size: 2.0em;
+  }
+  
+  #quote {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   
 }
-
