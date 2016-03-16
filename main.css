@@ -54,12 +54,14 @@ a {
   text-decoration: none;
   color: #3B3B3B;
   -webkit-transition: color 0.5s;
+  transition: color 0.5s;
 }
 
 a:hover, a:hover_effect {
   text-decoration: none;
   color: #0097C1; 
-   -webkit-transition: color 0.2s;
+  -webkit-transition: color 0.2s;
+  transition: color 0.5s;
 }
 /*------------------------------------------Navbar---*/
 
@@ -213,45 +215,53 @@ img {
   position: relative;
   top: 2px;
   -webkit-transition: right 0.2s;
+  transition: right 0.2s;
 }
 .glyphicon-triangle-right {
   position: relative;
   top: 2px;
   -webkit-transition: left 0.2s;
+  transition: left 0.2s;
 }
 
 .pull-left {
   position: relative;
   -webkit-transition: right 0.2s;
+  transition: right 0.2s;
 }
 
 .pull-left:hover {
   position: relative;
   right: 4px;
   -webkit-transition: right 0.2s;
+  transition: right 0.2s;
 }
 
 .pull-left:hover .glyphicon {
   position: relative;
   right: 8px;
   -webkit-transition: right 0.2s;
+  transition: right 0.2s;
 }
 
 .pull-right {
   text-align: right;
-    -webkit-transition: left 0.2s;
+  -webkit-transition: left 0.2s;  
+  transition: left 0.2s;
 }
 
 .pull-right:hover {
   position: relative;
   left: 4px;
   -webkit-transition: left 0.2s;
+  transition: left 0.2s;
 }
 
 .pull-right:hover .glyphicon {
   position: relative;
   left: 8px;
   -webkit-transition: left 0.2s;
+  transition: left 0.2s;
 }
 
 
