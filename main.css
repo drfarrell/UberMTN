@@ -56,7 +56,7 @@ a {
   -webkit-transition: color 0.5s;
 }
 
-a:hover {
+a:hover, a:hover_effect {
   text-decoration: none;
   color: #0097C1; 
    -webkit-transition: color 0.2s;
@@ -68,6 +68,10 @@ a:hover {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
+  color: #0097C1;
+}
+
+.navbar-default .navbar-nav > li > a:hover_effect {
   color: #0097C1;
 }
 
