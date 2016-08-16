@@ -99,6 +99,14 @@ a:hover, a:hover_effect {
   margin: auto;
 }
 
+.navbar-left {
+  left: 0px;
+}
+
+.navbar-left:hover {
+  left: 0px;
+}
+
 button {
   position: relative;
   top: 3px;
